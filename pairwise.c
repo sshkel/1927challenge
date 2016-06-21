@@ -1,4 +1,8 @@
 /*
+Hello agent1927, we are so glad to see you. The time couldn't been better as we have been infiltrated by russian spies.
+This is already an embarrassment but moreover they have swapped all the room numbers in the building. This is so confusing 
+and very frustraing. But our scientists have discovered a pattern. If we make a list of all the rooms we can see that the numbers are swapped pairwise.
+We would like to restore order and you must help us! 
 TASK:
 Given a singly linked list, write a function to swap elements pairwise. 
 For example, if the linked list is 1->2->3->4->5 then the function should change it to 2->1->4->3->5,

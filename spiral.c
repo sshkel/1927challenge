@@ -1,6 +1,10 @@
 #include <stdio.h>
 
 /* TASK:
+In 1917 we all learned how to print array: you go through each row and print each column.
+We are in 1927 now and we are much cooler than that! It is time to learn the secret 1927 print.
+SPIRAL PRINT!!! Yeap, that is exactly how cool kids do it B)
+
  * Given a 2D array, print it in spiral form. See the following examples.
  *
  * Input:

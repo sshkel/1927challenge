@@ -1,4 +1,8 @@
 /*
+The most impressive magic trick at CSE is when you take a BST and produce an exact mirrored copy of it.
+Of course being a first year is hard and you would like to make more friends, thus you resort to learning the magic trick.
+We all know that it is just smoke and mirrors so we will use our programming talent.
+
 TASK 
 Write a program that given a tree modifies it into a mirror of
 the given tree
