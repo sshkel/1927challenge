@@ -10,7 +10,7 @@ Can you help Mrs Barnabie find out all the treeph maps??
 TASK: 
 Basic: Given undirected graph find out if it is actually a tree. 
 
-Challenge: A forest also counts and it can be a directed graph.
+Challenge: A forest also counts.
 
 */
 #include <stdlib.h>
@@ -166,24 +166,8 @@ int main(){
 	result = isTreeph(six);
 	assert(result == 1);
 	dropGraph(six);
-	printf("Congrats, you passed the simple challenge\n");
+	printf("Congrats, you passed the challenge challenge\n");
 	
-	// things about to get weird! What about a directed graph??
-	six = newGraph(11); // got lazy changing all the names :/
-	insertEdge(six,0,1);
-	insertEdge(six,0,2);
-	insertEdge(six,0,3);
-	insertEdge(six,6,5);
-	insertEdge(six,6,4);
-	insertEdge(six,6,7);
-	insertEdge(six,9,10);
-	insertEdge(six,9,8);
-	insertEdge(six,4,3);
-	six->edges[3][4] = 0;
-	result = isTreeph(six);
-	assert(result == 0);
-	dropGraph(six);
-	printf("Congrats, you passed extra challenge\n");
 	return 0;
 }
 
